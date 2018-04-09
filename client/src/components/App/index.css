@@ -1,0 +1,89 @@
+.mainContainer {
+	display: flex;
+}
+
+/*Header Stuff*/
+.headStuff {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color:rgb(37, 41, 46);
+	color: rgb(200, 201, 203);
+}
+
+.searchStuff {
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+
+.miscStuff {
+	display: flex;
+	width: 600px;
+	justify-content: space-evenly;
+
+}
+
+.smallImg {
+	display: flex;
+	width: 25px;
+	height: 25px;
+}
+
+.bigInput {
+	width: 200px;
+	height: 25px;
+	outline: none;
+	padding-left: 10px;
+	background-color: rgb(64, 68, 72);
+	border:none;
+	color: silver;
+	border-radius: 5px;
+}
+
+/*Left Side Follow Stuff*/
+.leftSide {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	align-items: flex-end;
+	margin-top: 25px;
+}
+
+/*Repo Stuff*/
+.repoContainer {
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.repoSearch {
+	width: 400px;
+	height: 35px;
+	padding-left: 10px;
+	border:1px solid silver;
+	border-radius: 5px;
+	outline: none;
+}
+
+.bottomP {
+	font-size: 25px;
+}
+
+.repoContent {
+	margin-top:5px;
+	border:1px solid silver;
+	border-left:none;
+	border-right:none;
+	width: 700px;
+	color: blue;
+}
+
+select {
+	height: 35px;
+	outline: none; 
+}
+
+.searchContainer {
+	display: flex;
+	justify-content: space-between;
+}
