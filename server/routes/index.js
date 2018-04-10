@@ -7,7 +7,7 @@ const request = require('request')
 router.get('/:login', function(req, res) {
 
 	const options = {
-		url: apiurl + req.params.login + '/repos',
+		url: apiurl + req.params.login,
 		headers: {
 			'User-Agent':req.params.login
 		}
